@@ -1,0 +1,8 @@
+{
+	"id": "lustycards",
+	"name": "Lusty cards",
+	"author": ["Smol lusty joker"],
+	"description": "Replace the Heart face cards to silli lusty joker doodles.",
+	"prefix": "lc",
+	"main_file": "lusty.lua"
+}
