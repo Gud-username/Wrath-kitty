@@ -1,2 +1,2 @@
 # Lusty-hearts
-Add the option to ma the heart cards Lusty joker
+Add the option to make the heart cards Lusty joker
