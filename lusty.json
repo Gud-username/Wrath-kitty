@@ -1,11 +1,4 @@
-{
-	"id": "lustyhearts",
-	"name": "Lusty hearts",
-	"author": ["Smol lusty joker"],
-	"description": "Replacea the Heart cards to silly little lusty joker doodles.",
-	"prefix": "lc",
-	"main_file": "lusty.lua"
-}
+
 {
 	"id": "lustycards",
 	"name": "Lusty cards",
