@@ -1,12 +1,12 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Vocaloid Cards
+--- MOD_NAME: Lusty Cards
 --- MOD_ID: Lusty
 --- PREFIX: lust
 --- MOD_AUTHOR: [Smol Lusty joker]
---- MOD_DESCRIPTION: Miku and friends are in your Balatro!
---- LOADER_VERSION_GEQ: 1.0.0
---- VERSION: 0.1.0
---- BADGE_COLOR: 1DF8DC
+--- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your heards
+--- LOADER_VERSION_GEQ: 1.1.1
+--- VERSION: 1.1.1
+--- BADGE_COLOR: FF6368
 
 local atlas_key = 'lust_atlas' -- Format: PREFIX_KEY
 -- See end of file for notes
