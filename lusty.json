@@ -6,7 +6,6 @@
 	"prefix": "lustycards",
 	"badge_colour": "FFF000",,
 	"dependencies": [
-		"Steamodded (>=1.0.0~ALPHA-1404b)"
 	],
 	"main_file": "Lusty.lua",
 	"version": "1.0"
