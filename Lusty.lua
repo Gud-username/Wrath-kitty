@@ -13,7 +13,7 @@ local atlas_lc = SMODS.Atlas {
 }
 local icon_lc = SMODS.Atlas {
 	key = "icon_lc",
-	path = "icon_lc.png",
+	path = "icon.png",
 	px = 18,
 	py = 18,
 }
