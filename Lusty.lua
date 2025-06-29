@@ -25,9 +25,9 @@ local icon_hc = SMODS.Atlas {
 	py = 18,
 }
 SMODS.DeckSkin {
-	key = "example",
+	key = "Smol Lusty Joker",
 	suit = "Hearts",
-	loc_txt = "Example",
+	loc_txt = "Smol Lusty Joker",
 	palettes = {
 		{
 			key = 'lc',
