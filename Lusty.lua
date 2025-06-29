@@ -14,7 +14,7 @@ SMODS.Atlas {
     px = 71,
     py = 95,
     disable_mipmap = true,
-    
+}    
 SMODS.DeckSkin({
     key = 'lusty_hearts',
     suit = "Hearts",
