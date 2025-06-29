@@ -4,7 +4,7 @@ local atlas_path = 'lusty.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
 local suits = {'hearts'} -- Which suits to replace
-local ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"} -- Which ranks to replace
+local ranks = {"Ace", "King", "Queen", "Jack", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- Which ranks to replace
 
 local description = 'Lusty joker playing cards' -- English-language description, also used as default
 
