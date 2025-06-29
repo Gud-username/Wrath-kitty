@@ -1,7 +1,7 @@
 ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"}
 SMODS.Atlas {
     key = 'hearts_1',
-    path = "collabs/tetoreiia.png",
+    path = "lusty.png",
     atlas_table = 'ASSET_ATLAS',
     px = 71,
     py = 95,
@@ -9,7 +9,7 @@ SMODS.Atlas {
 }
 SMODS.Atlas {
     key = 'hearts_2',
-    path = "collabs/tetoreiia_cb.png",
+    path = "lusty_hc.png",
     atlas_table = 'ASSET_ATLAS',
     px = 71,
     py = 95,
