@@ -1,8 +1,29 @@
 {
-	"id": "lustycards",
-	"name": "Lusty cards",
+	"id": "lustyhearts",
+	"name": "Lusty hearts",
 	"author": ["Smol lusty joker"],
 	"description": "Replacea the Heart cards to silly little lusty joker doodles.",
 	"prefix": "lc",
 	"main_file": "lusty.lua"
+}
+{
+	"id": "lustycards",
+	"name": "Lusty cards",
+	"author": ["Smol lusty joker"],
+	"description": "Replacess the Heart cards to silly little lusty joker doodles.",
+	"prefix": "vocalatro",
+	"main_file": "lusty.lua",
+	"priority": 0,
+	"badge_colour": "FFF000",
+	"badge_text_colour": "000FFF",
+	"display_name": "Lusty hearts",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (*)", 
+		"Lovely (*)", 
+		"Balatro (>=1.0.1m)"],
+	"conflicts": [
+	],
+	"provides": [
+	]
 }
