@@ -16,8 +16,8 @@ function SMODS.INIT.Colors()
 
 
     local loostmode_mod = SMODS.findModByID("Loost")
-    local deck_standard = SMODS.Sprite:new("cards_1", loostmode_mod.path, "LoostDeck.png", 71, 95, "asset_atli")
-    local deck_hc = SMODS.Sprite:new("cards_2", loostmode_mod.path, "LoostDeck_HC.png", 71, 95, "asset_atli")
+    local deck_standard = SMODS.Sprite:new("cards_1", loostmode_mod.path, "LustyDeck.png", 71, 95, "asset_atli")
+    local deck_hc = SMODS.Sprite:new("cards_2", loostmode_mod.path, "LustyDeck_HC.png", 71, 95, "asset_atli")
 	
     deck_standard:register()
     deck_hc:register()
