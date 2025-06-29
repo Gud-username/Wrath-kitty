@@ -1,45 +1,28 @@
-local atlas_key = 'lc_atlas' -- Format: PREFIX_KEY
--- See end of file for notes
-local atlas_path = 'lusty.png' -- Filename for the image in the asset folder
-local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version of the texture, if existing
-
-local suits = {'hearts'} -- Which suits to replace
-local ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"} -- Which ranks to replace
-
-local description = 'Lusty joker playing cards' -- English-language description, also used as default
-
------------------------------------------------------------
--- You should only need to change things above this line --
------------------------------------------------------------
-
-SMODS.Atlas{  
-    key = atlas_key..'_lc',
+ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"}
+SMODS.Atlas {
+    key = 'hearts_1',
+    path = "collabs/tetoreiia.png",
+    atlas_table = 'ASSET_ATLAS',
     px = 71,
     py = 95,
-    path = atlas_path,
-    prefix_config = {key = false}, -- See end of file for notes
+    disable_mipmap = true,
 }
-
-if atlas_path_hc then
-    SMODS.Atlas{  
-        key = atlas_key..'_hc',
-        px = 71,
-        py = 95,
-        path = atlas_path_hc,
-        prefix_config = {key = false}, -- See end of file for notes
+SMODS.Atlas {
+    key = 'hearts_2',
+    path = "collabs/tetoreiia_cb.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+    
+SMODS.DeckSkin({
+    key = 'lusty_hearts',
+    suit = "Hearts",
+    ranks = ranks,
+    lc_atlas = 'vocalatro_hearts_1',
+    hc_atlas = "vocalatro_hearts_2",
+    posStyle = 'collab',
+    loc_txt = {
+        ["en-us"] = "Smol lusty",
     }
-end
-
-for _, suit in ipairs(suits) do
-    SMODS.DeckSkin{
-        key = suit.."_skin",
-        suit = suit:gsub("^%l", string.upper),
-        ranks = ranks,
-        lc_atlas = atlas_key..'_lc',
-        hc_atlas = hc_registered and atlas_key..'_hc' or atlas_key..'_lc',
-        loc_txt = {
-            ['en-us'] = description
-        },
-        posStyle = 'collab'
-    }
-end
+})
