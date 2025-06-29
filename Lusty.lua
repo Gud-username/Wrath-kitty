@@ -16,7 +16,7 @@ local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version o
 local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
 local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- Which ranks to replace
 
-local description = 'A' -- English-language description, also used as default
+local description = 'Smol lusty joker' -- English-language description, also used as default
 
 -----------------------------------------------------------
 -- You should only need to change things above this line --
