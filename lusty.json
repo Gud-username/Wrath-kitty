@@ -4,18 +4,10 @@
 	"author": ["Smol lusty joker"],
 	"description": "Replacess the Heart cards to silly little lusty joker doodles.",
 	"prefix": "lustycards",
-	"main_file": "lusty.lua",
-	"priority": 0,
-	"badge_colour": "FFF000",
-	"badge_text_colour": "000FFF",
-	"display_name": "Lusty hearts",
-	"version": "1.0.0",
+	"badge_colour": "FFF000",,
 	"dependencies": [
-		"Steamodded (*)", 
-		"Lovely (*)", 
-		"Balatro (>=1.0.1m)"],
-	"conflicts": [
+		"Steamodded (>=1.0.0~ALPHA-1404b)"
 	],
-	"provides": [
-	]
+	"main_file": "Lusty.lua",
+	"version": "1.0"
 }
