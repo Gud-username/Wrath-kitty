@@ -1,6 +1,8 @@
 ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"}
+
 lc_atlas = 'hearts_1',
-    hc_atlas = "hearts_2",
+hc_atlas = "hearts_2",
+
 SMODS.Atlas {
     key = 'hearts_1',
     path = "lusty.png",
