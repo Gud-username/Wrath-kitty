@@ -55,20 +55,6 @@ for _, suit in ipairs(suits) do
     }
 end
 
-local icon_lc = SMODS.Atlas {
-	key = "icon_lc",
-	path = "icon_lc.png",
-	px = 18,
-	py = 18,
-}
-
-local icon_hc = SMODS.Atlas {
-	key = "icon_hc",
-	path = "icon_hc.png",
-	px = 18,
-	py = 18,
-}
-
 -- Notes:
 
 -- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
