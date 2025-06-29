@@ -4,8 +4,8 @@
 --- PREFIX: lust
 --- MOD_AUTHOR: [Smol Lusty joker]
 --- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your heards
---- LOADER_VERSION_GEQ: 1.1.1
---- VERSION: 1.1.1
+--- LOADER_VERSION_GEQ: 1.1.2
+--- VERSION: 1.1.2
 --- BADGE_COLOR: FF6368
 
 local atlas_key = 'lust_atlas' -- Format: PREFIX_KEY
