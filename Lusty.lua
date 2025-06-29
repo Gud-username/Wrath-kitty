@@ -11,6 +11,19 @@ local atlas_lc = SMODS.Atlas {
 	px = 71,
 	py = 95,
 }
+local icon_lc = SMODS.Atlas {
+	key = "icon_lc",
+	path = "icon_lc.png",
+	px = 18,
+	py = 18,
+}
+
+local icon_hc = SMODS.Atlas {
+	key = "icon_hc",
+	path = "icon_hc.png",
+	px = 18,
+	py = 18,
+}
 SMODS.DeckSkin {
 	key = "example",
 	suit = "Hearts",
@@ -19,7 +32,7 @@ SMODS.DeckSkin {
 		{
 			key = 'lc',
 			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",},
-			display_ranks = {"King", "Queen", "Jack"},
+			display_ranks = {"Ace ""King", "Queen", "Jack", "10", "9", "8", "7", "6", "5", "4", "3", "2"},
 			atlas = atlas_lc.key,
 			pos_style = 'deck',
 			suit_icon = {
@@ -29,7 +42,7 @@ SMODS.DeckSkin {
 		{
 			key = 'hc',
 			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",},
-			display_ranks = {"King", "Queen", "Jack"},
+			display_ranks = {"Ace ""King", "Queen", "Jack", "10", "9", "8", "7", "6", "5", "4", "3", "2"},
 			atlas = atlas_hc.key,
 			pos_style = 'deck',
 			colour = HEX("9734f0"),
@@ -41,7 +54,7 @@ SMODS.DeckSkin {
 })
 SMODS.Atlas({
     key = 'modicon',
-    path = 'Icon/Icon.png',
+    path = 'Modicon.png',
     px = 34,
     py = 34
 })
