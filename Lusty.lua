@@ -1,57 +1,27 @@
-local atlas_hc = SMODS.Atlas {
-	key = "skin_hc",
-	path = "lusty_hc.png",
-	px = 71,
-	py = 95,
-}
+function SMODS.INIT.Colors()
 
-local atlas_lc = SMODS.Atlas {
-	key = "skin_lc",
-	path = "lusty.png",
-	px = 71,
-	py = 95,
-}
-local icon_lc = SMODS.Atlas {
-	key = "icon_lc",
-	path = "icon.png",
-	px = 18,
-	py = 18,
-}
+    G.C.SUITS = {
+        Hearts = HEX('f20000'),
+        Diamonds = HEX('cb0b83'),
+        Spades = HEX("4f31b9"),
+        Clubs = HEX("28aa1a"),
+    }
 
-local icon_hc = SMODS.Atlas {
-	key = "icon_hc",
-	path = "icon_hc.png",
-	px = 18,
-	py = 18,
-}
-SMODS.DeckSkin {
-	key = "Smol Lusty Joker",
-	suit = "Hearts",
-	loc_txt = "Smol Lusty Joker",
-	palettes = {
-		{
-			key = 'lc',
-			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",},
-			display_ranks = {"Ace ""King", "Queen", "Jack", "10", "9", "8", "7", "6", "5", "4", "3", "2"},
-			atlas = atlas_lc.key,
-			pos_style = 'deck',
-			suit_icon = {
-				atlas = icon_lc.key,
-			},
-		},
-		{
-			key = 'hc',
-			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",},
-			display_ranks = {"Ace ""King", "Queen", "Jack", "10", "9", "8", "7", "6", "5", "4", "3", "2"},
-			atlas = atlas_hc.key,
-			pos_style = 'deck',
-			colour = HEX("9734f0"),
-			suit_icon = {
-				atlas = icon_hc.key,
-			},
-		},
-	},
-})
+    G.C.SO_1 = {
+        Hearts = HEX('f20000'),
+        Diamonds = HEX('cb0b83'),
+        Spades = HEX("4f31b9"),
+        Clubs = HEX("28aa1a"),
+    }
+
+
+    local loostmode_mod = SMODS.findModByID("Loost")
+    local deck_standard = SMODS.Sprite:new("cards_1", loostmode_mod.path, "LoostDeck.png", 71, 95, "asset_atli")
+    local deck_hc = SMODS.Sprite:new("cards_2", loostmode_mod.path, "LoostDeck_HC.png", 71, 95, "asset_atli")
+	
+    deck_standard:register()
+    deck_hc:register()
+end
 SMODS.Atlas({
     key = 'modicon',
     path = 'Modicon.png',
