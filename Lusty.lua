@@ -36,7 +36,7 @@ for _, suit in ipairs(suits) do
         suit = suit:gsub("^%l", string.upper),
         ranks = ranks,
         lc_atlas = atlas_key..'_lc',
-        hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
+        hc_atlas = hc_registered and atlas_key..'_hc' or atlas_key..'_lc',
         loc_txt = {
             ['en-us'] = description
         },
