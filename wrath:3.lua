@@ -1,12 +1,12 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Lusty Cards
---- MOD_ID: Lusty
---- PREFIX: lust
+--- MOD_NAME: Wrath kitty
+--- MOD_ID: Kitty
+--- PREFIX: wrath:3
 --- MOD_AUTHOR: [Smol Lusty joker]
---- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your heards
---- LOADER_VERSION_GEQ: 1.1.2
---- VERSION: 1.1.2
---- BADGE_COLOR: FF6368
+--- MOD_DESCRIPTION: A mod just for you. thx for using my mod kirby!
+--- LOADER_VERSION_GEQ: 1.0
+--- VERSION: 1.0
+--- BADGE_COLOR: 3c4368
 
 local atlas_key = 'kitty_atlas' -- Format: PREFIX_KEY
 -- See end of file for notes
