@@ -1,0 +1,12 @@
+{
+	"id": "Wrath kitty",
+	"name": "Wrath kitty",
+	"author": ["Smol lusty joker"],
+	"description": "A mod just for you, thx for using my mod kirby",
+	"prefix": "Wrathkitty",
+	"badge_colour": "3c4368",,
+	"dependencies": [
+	],
+	"main_file": "wrath:3.lua",
+	"version": "1.0"
+}
