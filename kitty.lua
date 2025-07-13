@@ -14,7 +14,7 @@ local atlas_path = 'kitty_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'kitty_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
 local suits = {'spades'} -- Which suits to replace
-local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- Which ranks to replace
+local ranks = {'Jack', 'Queen', "King", "Ace"} -- Which ranks to replace
 
 local description = 'Wrath kitty' -- English-language description, also used as default
 
