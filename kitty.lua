@@ -1,7 +1,7 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Wrath kitty
 --- MOD_ID: Kitty
---- PREFIX: wrath:3
+--- PREFIX: kitty
 --- MOD_AUTHOR: [Smol Lusty joker]
 --- MOD_DESCRIPTION: A mod just for you. thx for using my mod kirby!
 --- LOADER_VERSION_GEQ: 1.0
