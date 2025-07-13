@@ -54,12 +54,6 @@ for _, suit in ipairs(suits) do
         posStyle = 'deck'
     }
 end
-SMODS.Atlas({
-    key = 'modicon',
-    path = 'Modicon.png',
-    px = 34,
-    py = 34
-})
 -- Notes:
 
 -- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
